@@ -1,0 +1,123 @@
+.video-back {
+    background-color: brown;
+}
+
+
+/*navbar*/
+.video-nav {
+    overflow: hidden;
+    background-color: black;
+}
+
+.video-nav ul {
+    display: flex;
+}
+
+.video-nav a {
+    float: right;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.video-nav a:hover {
+    background-color: darkgoldenrod;
+    color: black;
+}
+
+
+.video-nav .flex {
+    justify-content: space-between;
+}
+
+/*navbar end*/
+
+/*left sign*/
+.l-sign {
+    color:greenyellow ;
+    
+}
+
+/*end left sign*/
+
+/*lead video container*/
+
+
+.main-container {
+    background-color: aliceblue;
+    height: 400px;
+    margin: 10px 600px;
+    
+}
+
+.lead-video {
+    height: 400px;
+    width: 700px;
+}
+
+
+
+/*end lead video container*/
+
+ 
+/*video containers-1*/
+
+.container-1 {
+    background-color: aliceblue;
+    height: 150px;
+    margin-left: -7px;
+    margin-right: -7px;
+    border-radius: 10px;
+    display: flex;
+    grid-template-columns: 3 1fr;
+   column-gap: 200px;
+   padding-left: 250px;
+       
+}
+
+.container-1-item {
+    
+    padding:0 60px;
+    font-size: 10px;
+}
+
+
+
+
+
+/*end video container -1*/
+
+
+/*video container -2*/
+
+.container-2 {
+    background-color: aliceblue;
+    height: 150px;
+    margin-left: -7px;
+    margin-right: -7px;
+    border-radius: 10px;
+    display: flex;
+    grid-template-columns: (3 1fr);
+   column-gap: 200px;
+   padding-left: 250px;
+   margin-top: 30px;
+       
+}
+.container-2-item {
+    
+    padding:0 60px;
+    font-size: 10px;
+}
+
+
+
+
+/*video container ends -2*/
+
+/*foorter*/
+
+.footer {
+    text-align: center;
+    padding-top: 50px;
+}
